@@ -1,97 +1,55 @@
-# 你好 :3
-确实是想写点什么东西在这里的……  
-但是呢  
-写不出来！
+# 你好！ :3
+🧡这里是Lineo的个人资料！  
+🎈喜欢气球嘛  
+🧶但是我不会多少语言，只会C#  
+🌈请你吃彩虹哦  
+🌏你知道我想说什么~  
+
+我说以下几点
+>性别：🙅‍♂️我不说🙅‍♀️  
+>年龄：💦欸嘿我也不说  
+>喜欢的东西：
+>>1.我不知道  
+>>2.我也不说  
+>>3.欸嘿  
+>>4.你  
+>>5.awa  
+>
+>直-接-来-吧-!
+#
 ```cs
-var descript = PleaseHelpMeWriteSelfDescription();
-try
+public class Person
 {
-    WriteDownHere(descript);
+    protected Gender gender { get; }
+    public uint age { get; }
+    public string name { get; } // Lineo
+    public Brain brain { get; }
+
+    public class Brain
+    {
+        public object WhatImThinking { get; set; }
+        protected byte[] memories;
+    }
+    public enum Gender
+    {
+        Male,
+        Female,
+        OH_NO_IDONT_WANNA_TELL_YOU,
+        Water
+    }
+
+    public void OnBirth()
+    {
+        Console.WriteLine(brain.WhatImThinking);
+    }
 }
-catch
-{
-    WeiteDownHere("No");
-}
 ```
-No  
-___
-哎，还是没有想写的呢……
-
-来看我的个人主页！  
-![Bilibili 图标](https://www.bilibili.com/favicon.ico) B站：[个人主页](https://space.bilibili.com/88753033) [^1]
-
-我平时挺少用 `Markdown` 的，不大会写……不过我看到了一些高级的东西，直接 Ctrl + C 再 Ctrl + V [^2]
-
 ```
-$$
-\begin{Bmatrix}
-   a & b \\
-   c & d
-\end{Bmatrix}
-$$
+[EXCEPTION] NullRenferenceException: Object reference not set to an instance of an object.
+
+System.Console.WriteLine(object obj);
+EarthOnline.Person.OnBirth();
+EarthOnline.World.TimePass();
+EarthOnline.World.MessagesLoop();
+Mutiverse.Galaxy.OnStart(long no, int seed);
 ```
-
-$$
-\begin{Bmatrix}
-   a & b \\
-   c & d
-\end{Bmatrix}
-$$
-
-```
-$$
-\begin{CD}
-   A @>a>> B \\
-@VbVV @AAcA \\
-   C @= D
-\end{CD}
-$$
-```
-
-$$
-\begin{CD}
-   A @>a>> B \\
-@VbVV @AAcA \\
-   C @= D
-\end{CD}
-$$
-
-```
-graph LR
-A[方形] -->B(圆角)
-    B --> C{条件a}
-    C -->|a=1| D[结果1]
-    C -->|a=2| E[结果2]
-    F[横向流程图]
-```
-
-```mermaid
-graph LR
-A[方形] -->B(圆角)
-    B --> C{条件a}
-    C -->|a=1| D[结果1]
-    C -->|a=2| E[结果2]
-    F[横向流程图]
-```
-
-___
-__这是我自己写的！__ =v=
-
-$$
-\begin{bmatrix}
-    a & c \\
-    b & d
-\end{bmatrix}
-\begin{bmatrix}
-    x \\
-    y
-\end{bmatrix}
-\=
-\begin{bmatrix}
-    ax + cy \\
-    bx + dy
-\end{bmatrix}
-$$
-
-[^1]: 嗯嗯纯粹为了显得我会用脚注（
-[^2]: 来自[RUNOOB 菜鸟教程](https://www.runoob.com/markdown/md-advance.html)
